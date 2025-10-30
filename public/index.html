@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The IIT Varanasi Store</title>
+  <meta name="description" content="Shop the exclusive IIT Varanasi luxury collection crafted in warm autumnal tones." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-mark">IV</span>
+      <div class="brand-text">
+        <h1>The IIT Varanasi Store</h1>
+        <p>Exclusive Heritage Collection</p>
+      </div>
+    </div>
+    <nav class="top-nav" aria-label="Primary">
+      <a href="#collections">Collections</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#souvenirs">Souvenirs</a>
+      <a href="#concierge">Concierge</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" aria-label="View cart" data-cart-toggle>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 4h-2l-1 2v2h2l3.6 7.59c-.35.58-.56 1.26-.56 1.98 0 2.21 1.79 4 4 4s4-1.79 4-4h-2c0 1.1-.9 2-2 2s-2-.9-2-2c0-.35.09-.68.24-.97l.76-1.51h5.76c.78 0 1.45-.46 1.77-1.11l3.44-7.22c.12-.25.19-.53.19-.82 0-.99-.81-1.8-1.8-1.8h-15.2l-.94-2z" />
+      </svg>
+      <span class="cart-count" aria-live="polite" data-cart-count>0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="experience">
+      <div class="hero-content">
+        <p class="eyebrow">Autumn Luxe 2024 Drop</p>
+        <h2>Celebrate the spirit of IIT Varanasi with curated couture.</h2>
+        <p class="lead">Crafted in limited batches with heritage embroidery, gilded accents, and cashmere-soft fabrics. Designed for those who carry the Banaras legacy in their heart.</p>
+        <div class="hero-ctas">
+          <a class="cta primary" href="#collections">Explore Collections</a>
+          <a class="cta secondary" href="#concierge">Meet the Concierge</a>
+        </div>
+      </div>
+      <div class="hero-showcase" role="presentation">
+        <div class="floating-card" aria-hidden="true">
+          <h3>Founder's Edition Tee</h3>
+          <p>Hand-finished zari crest · ₹2,999</p>
+        </div>
+        <div class="hero-orb" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <header>
+        <p class="eyebrow">Curated Capsules</p>
+        <h2>Timeless pieces for every IIT Varanasi moment.</h2>
+      </header>
+      <div class="collection-grid" data-products-grid="signature" aria-live="polite"></div>
+    </section>
+
+    <section class="experience" aria-labelledby="experience-title">
+      <div class="experience-copy">
+        <p class="eyebrow">Crafted for Connoisseurs</p>
+        <h2 id="experience-title">Immersive luxury from product to packaging.</h2>
+        <p>Every purchase arrives in hand-crafted Banarasi boxes lined with sandalwood-toned suede. We partner with artisans who understand the IIT Varanasi heritage, blending contemporary silhouettes with timeless craftsmanship.</p>
+        <ul class="pill-list">
+          <li>Complimentary engraving for alumni</li>
+          <li>Same-day dispatch within Varanasi</li>
+          <li>Concierge styling appointments</li>
+        </ul>
+      </div>
+      <div class="experience-gallery">
+        <figure>
+          <div class="gallery-image" aria-hidden="true"></div>
+          <figcaption>Every stitch inspected to perfection by our atelier in Assi Ghat.</figcaption>
+        </figure>
+        <figure>
+          <div class="gallery-image alt" aria-hidden="true"></div>
+          <figcaption>Signature packaging with embossed crest and silk ribbons.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="collections atelier" id="atelier">
+      <header>
+        <p class="eyebrow">Atelier Exclusives</p>
+        <h2>Bespoke pieces finished by hand in our design studio.</h2>
+      </header>
+      <div class="collection-grid" data-products-grid="atelier" aria-live="polite"></div>
+    </section>
+
+    <section class="souvenirs" id="souvenirs">
+      <header>
+        <p class="eyebrow">Collector's Keepsakes</p>
+        <h2>Memories of campus, curated in gold.</h2>
+      </header>
+      <div class="souvenir-grid" data-products-grid="souvenirs" aria-live="polite"></div>
+    </section>
+
+    <section class="stories" id="stories">
+      <header>
+        <p class="eyebrow">Testimonials</p>
+        <h2>Stories from our alumni circle.</h2>
+      </header>
+      <div class="story-grid">
+        <article class="story-card">
+          <p>“The concierge called within minutes to confirm sizing. The packaging felt like unwrapping a piece of Banaras history.”</p>
+          <span>Aditi Sharma · Class of 2012</span>
+        </article>
+        <article class="story-card">
+          <p>“Unmatched craftsmanship. The velvet jacket is a conversation starter at every alumni meet.”</p>
+          <span>Rahul Verma · Class of 2008</span>
+        </article>
+        <article class="story-card">
+          <p>“Finally a store that captures IIT Varanasi’s heritage with the luxury it deserves.”</p>
+          <span>Nisha Kulkarni · Class of 2015</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="concierge" id="concierge">
+      <div class="concierge-copy">
+        <p class="eyebrow">White-Glove Checkout</p>
+        <h2>Our concierge completes every order with a personal touch.</h2>
+        <p>Schedule a call, share your preferences, and allow our stylists to prepare a bespoke cart. International shipping and campus pick-up are available on request.</p>
+        <ul class="pill-list">
+          <li>Secure online checkout with instant confirmation</li>
+          <li>Dedicated alumni support specialist</li>
+          <li>Complimentary gift notes and packaging</li>
+        </ul>
+      </div>
+      <div class="concierge-card">
+        <h3>Ready to checkout?</h3>
+        <p>Review your cart and complete payment in a guided experience. Our team will reach out within 12 hours of placing an order.</p>
+        <button class="cta primary" data-open-checkout>Proceed to Checkout</button>
+        <p class="contact-note">Prefer a human touch? Call our concierge desk at <a href="tel:+919876543210">+91 98765 43210</a>.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <header>
+        <p class="eyebrow">Visit The Atelier</p>
+        <h2>Experience the collection in person.</h2>
+      </header>
+      <div class="contact-grid">
+        <div>
+          <h3>Flagship Studio</h3>
+          <p>Heritage Lane, IIT (BHU) Varanasi Campus<br/>Varanasi, Uttar Pradesh 221005</p>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <p>Mon – Sat: 10:00 – 19:00 IST<br/>Sun: By appointment</p>
+        </div>
+        <div>
+          <h3>Concierge</h3>
+          <p><a href="mailto:concierge@iitvstore.com">concierge@iitvstore.com</a><br/><a href="tel:+919876543210">+91 98765 43210</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; <span data-current-year></span> The IIT Varanasi Store. Crafted with pride in Banaras.</p>
+    <nav aria-label="Utility" class="footer-nav">
+      <a href="#concierge">Concierge</a>
+      <a href="#contact">Visit Us</a>
+      <a href="#collections">Shop</a>
+    </nav>
+  </footer>
+
+  <aside class="cart-panel" data-cart-panel aria-hidden="true">
+    <header class="cart-panel__header">
+      <h2>Your Cart</h2>
+      <button class="cart-panel__close" data-cart-toggle aria-label="Close cart">&times;</button>
+    </header>
+    <div class="cart-panel__body" data-cart-body>
+      <p class="empty-state">Your cart is waiting to be filled with IIT Varanasi heritage.</p>
+    </div>
+    <footer class="cart-panel__footer">
+      <dl class="cart-total">
+        <div>
+          <dt>Subtotal</dt>
+          <dd data-cart-subtotal>₹0</dd>
+        </div>
+      </dl>
+      <button class="cta primary" data-open-checkout disabled>Checkout</button>
+    </footer>
+  </aside>
+
+  <div class="overlay" data-overlay hidden>
+    <div class="overlay__dialog" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <button class="overlay__close" type="button" data-close-overlay aria-label="Close checkout">&times;</button>
+      <section class="checkout" data-checkout>
+        <header>
+          <h2 id="checkout-title">Complete your order</h2>
+          <p>Confirm your details so our concierge can finalise the experience.</p>
+        </header>
+        <form class="checkout-form" data-checkout-form novalidate>
+          <div class="form-group">
+            <label for="customer-name">Full name</label>
+            <input id="customer-name" name="name" type="text" placeholder="e.g. Aditi Sharma" required />
+          </div>
+          <div class="form-group">
+            <label for="customer-email">Email address</label>
+            <input id="customer-email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="customer-phone">Phone number</label>
+            <input id="customer-phone" name="phone" type="tel" placeholder="Optional" />
+          </div>
+          <div class="form-group">
+            <label for="customer-address">Delivery preferences</label>
+            <textarea id="customer-address" name="address" rows="3" placeholder="Let us know where to ship or if you prefer campus pick-up"></textarea>
+          </div>
+          <button class="cta primary" type="submit" data-submit-checkout>Place Order</button>
+          <p class="form-helper" data-checkout-helper>By placing this order you agree to our concierge reaching out with a secured payment link.</p>
+        </form>
+        <div class="checkout-status" data-checkout-status hidden></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite" hidden data-toast></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
